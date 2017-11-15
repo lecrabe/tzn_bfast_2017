@@ -11,8 +11,8 @@
 ###################################################################################
 
 #### Repertoire racine
-#rootdir <- "/media/dannunzio/OSDisk/Users/dannunzio/Documents/countries/cote_ivoire/trainings_cote_ivoire/training_alertes_oct2017/"
-rootdir <- "~/rci_ws_20171022/"
+rootdir <- "/media/dannunzio/OSDisk/Users/dannunzio/Documents/countries/tanzania/"
+
 dir.create(rootdir)
 
 #### Repertoire des scripts
@@ -37,7 +37,7 @@ system(sprintf("echo %s | drive init",
 
 system(sprintf("drive list"))
 
-base <- '_rci_20171025'
+base <- '_tzn_20171115'
 data_input <- c(paste0(c('All_NDMI','All_NDVI'),base,'.tif'),
                 paste0(c('tableID_NDMI','tableID_NDVI'),base,'.csv')
                 )
